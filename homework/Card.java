@@ -9,7 +9,6 @@ public class Card implements Comparable<Card>{ // 숫자, 모양
     
     public Card(CardShape shape, CardNum num) {
         this.shape = shape;
-        this.num = num;
     }
 
     public CardNum getNum() {
